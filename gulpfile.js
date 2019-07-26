@@ -7,7 +7,7 @@ function modules() {
     var jquery = gulp.src('./node_modules/jquery/dist/jquery.slim.min.js')
         .pipe(gulp.dest('./stylesheets/js'));
     //jQuery Easing
-    var easing = gulp.src('node_modules/jquery.easing/jquery.easing.min.js')
+    var easing = gulp.src('./node_modules/jquery.easing/jquery.easing.compatibility.js')
         .pipe(gulp.dest('./stylesheets/js'));
     //popper.js
     var popper = gulp.src('./node_modules/popper.js/dist/umd/popper.min.js')

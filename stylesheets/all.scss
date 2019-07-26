@@ -1,3 +1,9 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "./scss/bootstrap/variables";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//component
+@import "./scss/component/mixin";
+@import "./scss/component/nav";
+@import "./scss/component/global";
+@import "./scss/component/icon";

@@ -1,0 +1,50 @@
+.social-icon {
+    padding-left: 0;
+  li {
+      margin-right: 1rem;
+      display: inline-block;
+    a {
+      display: inline-block;
+      background: $gray-700;
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 100%;
+      font-size: 24px;
+      color: white;
+      line-height: 3.5rem;
+      text-align: center;
+      &:hover{
+        background-color: $primary;
+      }
+    }
+  }
+}
+.skill-icon{
+  padding-left: 0;
+  display: inline-block;
+  li{
+    display: inline-block;
+    margin-right: 1rem;
+    color:$gray-600;
+    font-size: 50px;
+    &:hover{
+      color: $primary;
+    }
+  }
+}
+.check-icon{
+  list-style: none;
+  padding-left:0; 
+  i{
+    margin-left: 0.5rem;;
+    margin-right: 1rem;
+  }
+}
+.trophy-icon{
+  list-style: none;
+  padding-left: 0;
+  i{
+    color:$warning;
+    margin-right: 1rem;
+  }
+}
